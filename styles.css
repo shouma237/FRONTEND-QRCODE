@@ -1,0 +1,47 @@
+/* variables */
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Light-gray: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%);
+    }
+
+* {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-Light-gray);
+    font-family: Outfit, sans-serif;
+    font-size: .9rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 320px;
+    background-color: var(--color-White);
+    border-radius: 5%;
+    padding-bottom: 2%;
+}
+
+.card img {
+    max-width: 100%;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.card h2 {
+    padding: 2% 8% 5%;
+}
+
+.card p {
+    color: var(--color-Grayish-blue);
+    padding: 0 10% 0;
+}
